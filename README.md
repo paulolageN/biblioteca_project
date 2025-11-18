@@ -3,7 +3,7 @@
 **Funcionalidades:**
 - Login
 - Criar conta
-- Página inicil 
+- Página inicial 
 - Página Sobre
 
 
