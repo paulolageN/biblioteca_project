@@ -6,7 +6,8 @@
 - Página inicil 
 - Página Sobre
 
-  **Linguagens:**
+
+**Linguagens:**
 - html5
 - css 
 - java script  
