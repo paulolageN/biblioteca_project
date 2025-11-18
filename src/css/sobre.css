@@ -1,0 +1,84 @@
+/* HERO */
+.about-hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.about-hero h1 {
+    font-size: 2.4rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+}
+
+.about-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--text-light);
+    font-size: 1.1rem;
+}
+
+/* INFO CARDS */
+.about-cards {
+    padding: 3rem 10%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 2rem;
+    width: 300px;
+    backdrop-filter: blur(4px);
+    transition: 0.2s;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.about-card h3 {
+    color: var(--accent);
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.about-card p {
+    color: var(--text-light);
+    line-height: 1.6rem;
+    font-size: 0.95rem;
+}
+
+/* BANNER */
+.about-banner {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.about-banner img {
+    width: 90%;
+    max-width: 900px;
+    border-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+    .about-hero h1 {
+        font-size: 1.9rem;
+    }
+
+    .about-card {
+        width: 100%;
+    }
+
+    .about-banner img {
+        width: 95%;
+    }
+}
